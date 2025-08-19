@@ -31,16 +31,21 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  firebase_auth: ^6.0.0
-  firebase_core: ^4.0.0
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  # Firebase
+  firebase_auth: ^6.0.1
+  firebase_core: ^4.0.0
+  cloud_firestore: ^6.0.0
+
+  # Utilidades
+  intl: ^0.20.2
+
+  # Pasarela (WebView moderno)
+  webview_flutter: ^4.7.0
+  webview_flutter_web: ^0.2.2+5   # para ejecutar en Chrome (modo dev)
+  url_launcher: ^6.3.0            # opcional
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
