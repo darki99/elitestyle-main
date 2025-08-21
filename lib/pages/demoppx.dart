@@ -35,7 +35,7 @@ class _PayboxDemoPageState extends State<PayboxDemoPage> {
     _cardModelExample.payboxDirection = 'Quito, Pichincha, Ecuador';
     _cardModelExample.payboxClientPhone = '987654321';
     _cardModelExample.payboxClientIdentification = '1002003001';
-    //_cardModelExample.payboxIdPlan = false;
+    _cardModelExample.payboxIdPlan = null;
     _cardModelExample.payboxEnvironment = 'product';
     /*
     _cardModelExample.paybBoxIdSuscription =

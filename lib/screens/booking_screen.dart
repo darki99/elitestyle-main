@@ -108,8 +108,8 @@ class _BookingScreenState extends State<BookingScreen> {
 
     // 2) Armar el modelo para la pasarela (ajusta los valores reales)
     final card = PpxCardModel()
-      ..payboxRemail = user.email ?? 'cliente@correo.com'
-      ..payboxSendmail = 'tu-negocio@midominio.com'
+      ..payboxRemail = user.email ?? 'djegameryt@gmail.com'
+      ..payboxSendmail = 'djegameryt@gmail.com'
       ..payboxRename = 'Barbería EliteStyle'
       ..payboxSendname = user.displayName ?? 'Cliente'
       ..payboxListCard = 0
@@ -118,7 +118,7 @@ class _BookingScreenState extends State<BookingScreen> {
       ..payboxDirection = 'Dirección del cliente'
       ..payboxClientPhone = '0999999999'
       ..payboxClientIdentification = '9999999999'
-      ..payboxIdPlan = 0 // si usas plan/suscripción, ajusta
+      ..payboxIdPlan = null // si usas plan/suscripción, ajusta
       ..payboxEnvironment = 'sandbox'; // 'product' / 'prod' / 'sandbox'
 
     // 3) Abrir el modal de pago
